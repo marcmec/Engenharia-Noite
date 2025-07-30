@@ -1,0 +1,95 @@
+Lógico
+Exemplo simples: Diagnóstico
+80% das pessoas que aferem glicemia de 130 mg/dl estão
+diabéticas.
+Porém os 20% causam dúvida a denpender do cenário, enstresse, alimentação
+com a aferição na hora errada com o equipamento.
+Conclusão:
+Nem toda glicemia aferida com 130 é diabetes, logo não estão necessariamente relacionadas.
+A incerteza faz a lógica ficar inviável.
+
+
+Teoria da probabilidade:
+Experimento E em que o resultado não pode ser predito, mesmo que seja repetido várias verzes
+e nas mesmas condições
+Exemplo:
+Experimento A : arremesso de moeda
+Experimento B : arremesso de dado
+
+Variáveis ALeatórias:
+EA: Face da moeda para cima 
+EB: FAce do dado para cima
+
+Espaço AMostral:
+COnjunto de todos os valores que a variável aleatória pode assumir:
+Moeda {cara, coroa}
+DAdod {1 ... 6}
+
+Evento:
+E1: Jogar a moeda 3x e observar quantas vezes aparece cara e quantas vezes aparece coroa.
+Ev1: Aparece 2 caras e uma coroa em qualquer ordem.
+
+Subconjunto : {(c,c,c'), (c,c',c), (c',c,c)}
+
+Probabilidade:
+
+Evento = númeroreal [0,1,1]
+Se o espaço amostral consiste de N elementos igualmente prováveis e o evento A corresponde a um subconjunto de R elementos do espaço
+amostral, então a probabilidade de ocorrer A é dado por : P(A)= R/N
+moeda: p(1)= c/2   p(0) = c'/2 
+
+Probabildiade Conjunta
+Fornece a probabilidade de DOIS ou mais eventos ocorrerem simultâneamente.
+
+Moeda:
+A= Cara P(A) = 1/2
+B = Coroa P(B) = 1/2
+
+logo, 
+P(A   B) = P(A)P(B) = 1/2* 1/2 = 1/4
+ .: mais difícil ter uma sequência
+Isso ocorre quando os eventos são independentes.
+Ocorrência de um não altera a probabilidade de ocorrência do outro 
+Qualquer coisa que ocorra diferente dessas situações, podemos chamar de EVENTOS DEPENDENTES OU NÃO INDEPENDENTES.
+
+Uma urna contém 10 bolas numeradas de 0 a 9.
+Num experimento, é preciso selecionar uma bola da urna e anotar seu número.
+Deseja-se encontrar a probabilidade de eventos:
+
+A = número da bola é 5
+B = número da bola é ímpar
+C = número da bola é % 3
+Espaço amostral S = { 0...9}
+
+PRobabilidade CONdicional
+
+QUal a probabilidade o evento B ocorrer após o evento A:
+
+B -> A depende
+
+QUal a probabilidade de um paciente estar com cárie, dado que ele está com dor de dente?
+Qual a probabilidade de chover, dado que o céu está completamente nublado?
+
+NO exemplo do dado:
+
+A= número é 6
+B= Número é maior que 4
+
+Qual a probabilidade de ocorrer o evento A sabendo que o evento B ocorreu?
+
+P(A|B) = P(A^B)/P(B) = (1/6 * 2/6 )/1/3 =( 1/6*1/3)/1/3 = 1/18/ 1/3 = 1/18*3/1
+1/6
+
+M.E 10 pontos
+
+Probabilidade do câncer de pulmão
+
+
+            não fuma    fuma   total
+sem câncer  40            10    50
+com câncer  7             3     10
+total       47            13    60
+
+QUAL A PROBABILIDADE DA PESSOA COM CÂNCER TER FUMADO?
+QUal a probabilidade da pessoa ter câncer sem ter fumado?
+
